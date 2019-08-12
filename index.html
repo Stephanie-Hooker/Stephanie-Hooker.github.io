@@ -4,26 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
 
 <body>
 
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-      <a href="#home" class="w3-bar-item w3-button"><b>Stephanie Hooker</b> - Web Developer</a>
+      <a href="#home" class="w3-bar-item w3-button red"><b>Stephanie Hooker</a>
+
       <!-- Float links to the right. Hide them on small screens -->
       <div class="w3-right w3-hide-small">
-        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-        <a href="#about" class="w3-bar-item w3-button">About</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        <a href="#projects" class="w3-bar-item w3-button red">Projects</a>
+        <a href="#about" class="w3-bar-item w3-button red">About</a>
+        <a href="#contact" class="w3-bar-item w3-button red">Contact</a>
       </div>
     </div>
   </div>
 
   <!-- Header -->
-  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="black-and-white-browsing-coffee-265152.jpg" alt="black and white pic" width="1500"
-      height="800">
+  <header class="w3-display-container w3-content w3-wide container" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="joseph-young-S2I2q2zzI1A-unsplash.jpg" alt="nature pic" width="1500" height="800">
+    <div class="top-left">Top Left</div>
     <!-- <div class="w3-display-middle w3-margin-top w3-center"> -->
     <!-- <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span -->
     <!-- class="w3-hide-small w3-text-light-grey">Architects</span></h1> -->
@@ -35,7 +37,7 @@
 
     <!-- Project Section -->
     <div class="w3-container w3-padding-32" id="projects">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 red">Projects</h3>
     </div>
 
     <div class="w3-row-padding">
@@ -94,14 +96,29 @@
 
     <!-- About Section -->
     <div class="w3-container w3-padding-32" id="about">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-      <p>I am a Web Developer in training. I have created projects and web pages using:
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-        </ul>
-      </p>
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 red">About</h3>
+      <div class="row">
+        <div class="col-6">
+
+
+          <p>Hi there! I am an Idaho girl, born and raised. I love being in the mountains and paddleboarding on clear,
+            still
+            water. I love being outside, camping, biking, hiking, and gardening. My family is my whole world and I try
+            and
+            spend as much time with them as I can.I am a Web Developer in training. I have created projects and web
+            pages
+            using:
+          </p>
+        </div>
+        <div class="col-6">
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!-- <div class="w3-row-padding w3-grayscale">
@@ -137,7 +154,7 @@
 
     <!-- Contact Section -->
     <div class="w3-container w3-padding-32" id="contact">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 red">Contact</h3>
       <p>Please feel free to contact me.</p>
       <form action="/action_page.php" target="_blank">
         <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
